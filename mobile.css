@@ -1,0 +1,213 @@
+@media only screen and (max-width: 600px) {
+  .img_wave{
+    width: 100%;
+    margin-top: -15%;
+  
+  }
+
+
+
+     
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color .5s;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ 
+
+
+  .sidenav {
+    height: 25%;
+    width: 0;
+    display: flex;
+    display: inline-block;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color:gainsboro;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    
+  }
+
+
+
+  .header{
+    position: absolute;
+    margin-top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    display: inline-block;
+    
+   
+  }
+
+
+  .card-container{
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+/* .............profile-view............ */
+
+
+
+ 
+ 
+ .picture img{
+  box-sizing: border-box;
+  margin-top: 10%;
+  margin-left: -0%;
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px 2px #000;
+  width: 300px;
+}
+
+
+
+
+/* ............skill......... */
+
+.head{
+  position: absolute;
+  margin-top: 185%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  display: inline-block;
+  
+ 
+}
+
+
+.container1 {
+margin-top: 200%;
+width: 20%;
+margin-left: 15%;
+justify-content: space-around;
+display: inline-block;
+
+}
+.container1 .card{
+
+margin-top: 70px;
+}
+
+
+
+.container2{
+  margin-top: 10%;
+  margin-left: 15%;
+  justify-content: space-between;
+  display: inline-block;
+  transform: translateY(-10px);
+
+}
+
+
+.container2 .card2{
+  margin-top: 70px;
+
+}
+
+
+  .container3{
+  position: relative;
+  align-items: center;  
+  text-align: center;     
+  width: 950px;
+  transform: translateY(-10px);
+  margin-top: 50%;
+  margin-left: 10%;
+  justify-content: space-between;
+  display: inline-block;
+  transform: translateY(-10px);
+  
+  }
+
+
+
+
+     .card5{
+      margin-top: 70px;
+      width: 300px;
+      display: block;
+      padding: 0px;
+        
+    }  
+
+    
+
+/* ..........footer........... */
+
+  
+  .footer{
+    width: 100%;   
+    background: linear-gradient(to right,#928596,#d0c8d1);
+    margin-top: 25%;
+  
+}
+
+
+
+.inner-footer{
+  width: 100%;
+  margin: auto;
+  padding: 30px 10px;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.footer-item p{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+
+.footer-item p{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.footer-item ul{
+  list-style: none;
+  color:black;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+}
